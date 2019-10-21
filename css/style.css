@@ -167,47 +167,4 @@ main .yt-title,
 main .yt-channel { 
   padding: 16px 16px 0;
 }
-/*#yt-wrapper{
-  max-width: 1000px;
-  margin: 0 auto;
-}
-
- #yt-wrapper .item {
-    width: 32%;
-} */
-/* 
-#yt-wrapper .item {
-  width: 32%;
-  float: left;
-  margin: 0.5%;
-}
-.item-thumbnail {
-    padding: 2%;
-    border: 1px solid #071706;
-} */
-/* .yt-thumbnail:hover .main-img{
-  display:none;
-}
-
-.hover-img{
-  display:none;
-}
-
-.yt-thumbnail:hover .hover-img{
-  display:block;
-  position: relative;
-    top: 0;
-    object-fit: contain;
-    height: 100%;
-     transform: scale(4.5); 
-    z-index: 100;
-} */
-
-/* .zoom-me{
-  position: absolute;
-  top: 0;
-  right: 0;
-  width: 20px!important;
-  height: 20px!important;
-  left: auto!important;
-} */
+ 
