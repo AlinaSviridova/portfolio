@@ -49,6 +49,7 @@ header{
 #main .text .play{
     width: 70px;
     margin-top: 10px;
+    position: absolute;
 }
 
 #main .text .play:hover {
