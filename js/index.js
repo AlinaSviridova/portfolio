@@ -52,12 +52,14 @@ var mySwiper = new Swiper ('.swiper-container', {
  
   }) ;
  
-function getRandomInt(min, max) {
-    return Math.floor(Math.random() * (max - min + 1)) + min;
-}
-$(".play").hover(function () { 
-    $(this).css({
-        top: getRandomInt(0, 150)+"px",
-        left: getRandomInt(0, 150)+"px"
-    });
-}, function () { });
+$( document ).ready(function() { 
+  function getRandomInt(min, max) {
+      return Math.floor(Math.random() * (max - min + 1)) + min;
+  }
+  $(".play").hover(function () { 
+      $(this).css({
+          top: getRandomInt(0, 150)+"px",
+          left: getRandomInt(0, 150)+"px"
+      });
+  }, function () { });
+ });
